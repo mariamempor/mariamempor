@@ -1,0 +1,35 @@
+package projetoaula2603;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author 824144948
+ */
+public class Aula2603_Cond {
+    public static void main(String[] args) {
+        int DiaSemana;
+        for (int i=0;i<5;i++){
+      DiaSemana = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite um numero"));  
+      switch(DiaSemana){
+              case 1: JOptionPane.showInternalMessageDialog(null,"domingo","Dia da Semana",JOptionPane.PLAIN_MESSAGE);
+              break;
+              case 2: JOptionPane.showInternalMessageDialog(null,"segunda","Dia da Semana",JOptionPane.PLAIN_MESSAGE);
+              break;
+              case 3: JOptionPane.showInternalMessageDialog(null,"terça","Dia da Semana",JOptionPane.PLAIN_MESSAGE);
+              break;
+              case 4: JOptionPane.showInternalMessageDialog(null,"quarta","Dia da Semana",JOptionPane.PLAIN_MESSAGE);
+              break;
+              case 5: JOptionPane.showInternalMessageDialog(null,"quinta","Dia da Semana",JOptionPane.PLAIN_MESSAGE);
+              break;
+              case 6: JOptionPane.showInternalMessageDialog(null,"sexta","Dia da Semana",JOptionPane.PLAIN_MESSAGE);
+              break;
+              case 7: JOptionPane.showInternalMessageDialog(null,"sabado","Dia da Semana",JOptionPane.PLAIN_MESSAGE);
+              break;
+              default: {
+            } 
+      }
+        
+    }
+    }
+}
