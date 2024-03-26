@@ -1,0 +1,36 @@
+package projetoaula2603;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author 824144948
+ */
+
+public class ProjetoAula2603 {
+
+    public static void main(String[] args) {
+      String entrada = "";
+      float num1,num2,soma;
+      
+      entrada = JOptionPane.showInputDialog(null,"Digite um numero: ");
+      num1 = Float.parseFloat(entrada);
+      entrada = JOptionPane.showInputDialog(null,"Digite outro numero: ");
+      num2 = Float.parseFloat(entrada);
+      soma = num1+num2;
+      JOptionPane.showMessageDialog(null,soma,"Resultado",JOptionPane.PLAIN_MESSAGE);
+      if (soma == 0){
+      System.out.println("Os dois valores são 0!"); 
+      }
+      else{
+        if (soma >0 ){
+            System.out.println("Os valores digitados são maiores que 0");
+        }
+        else{
+            System.out.println("Os valores digitados são menores do que 0 ou um deles é um negativo maior do que o outro");
+        }
+      }
+    
+      System.exit(0);
+    }
+}
