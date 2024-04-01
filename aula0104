@@ -1,0 +1,36 @@
+
+package diarioDeNotas;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author 824144948
+ */
+public class DiarioDeNotas {
+   static String nomeAluno;
+    public static void main(String[] args) {
+       String usuario = JOptionPane.showInputDialog("Digite professor ou aluno");
+       if (usuario.equalsIgnoreCase("professor")){
+           String nomeProfessor = JOptionPane.showInputDialog("digite o seu nome");
+           nomeAluno = JOptionPane.showInputDialog("Digite oo nome do aluno");
+           JOptionPane.showMessageDialog(null, "Bem vindo " +usuario + nomeProfessor);
+           
+                 double notaA1 = Double.parseDouble(JOptionPane.showInputDialog("digite a nota "));
+                 double notaA2 = Double.parseDouble(JOptionPane.showInputDialog("digite a nota "));
+                 double notaA3 = Double.parseDouble(JOptionPane.showInputDialog("digite a nota "));
+                 
+                 double notaFinal = notaA1 + notaA2 + notaA3;
+        JOptionPane.showMessageDialog(null, "a nota final do aluno " + nomeAluno + notaFinal );
+                 
+       }else if (usuario.equalsIgnoreCase("aluno")){
+           
+           nomeAluno = JOptionPane.showInputDialog("digite o seu nome");
+           JOptionPane.showMessageDialog(null, "bem vindo"+ usuario + nomeAluno);
+       }else{
+           JOptionPane.showMessageDialog(null, "usuario invalido");
+       }
+        
+    }
+ 
+}
