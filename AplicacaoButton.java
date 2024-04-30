@@ -1,11 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package projOperadora;
+package projop;
 
-import java.awt.event.KeyEvent;
+/**
+ *
+ * @author Alunos
+ */
+ import java.awt.event.KeyEvent;
 import javax.swing.JButton;
 
 /**
@@ -19,24 +22,20 @@ public class AplicacaoButton extends AplicacaoText{
 		{
 					
 			B1 =new JButton("Incluir");
-			B1.setSize(80, 40);
-			B1.setLocation(200,320);
+			B1.setSize(80, 50);
+			B1.setLocation(300,320);
 			B1.setMnemonic(KeyEvent.VK_I);
 
 			
 			B2 = new JButton("Sair");
-			B2.setSize(80, 40);
-			B2.setLocation(300, 320);
+			B2.setSize(80, 50);
+			B2.setLocation(400, 320);
 			B2.setMnemonic(KeyEvent.VK_S);
 
-	                B3 = new JButton("PLANOS");
-			B3.setSize(90, 50);
-			B3.setLocation(380, 120);
-			B3.setMnemonic(KeyEvent.VK_T);
-			
+		
                         getContentPane().add(B1);
 			getContentPane().add(B2);
-			getContentPane().add(B3);
+//			getContentPane().add(B3);
 			}
 
 		
@@ -47,3 +46,6 @@ public class AplicacaoButton extends AplicacaoText{
 
                     
 }
+
+    
+

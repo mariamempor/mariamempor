@@ -1,44 +1,36 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package projOperadora;
+package projop;
+
+/**
+ *
+ * @author Alunos
+ */
 
 import java.awt.Color;
 import java.awt.*;
 import javax.swing.*;
 
-/**
- *
- * @author DENISE NEVES
- */
+
 public class NFrame extends JFrame{
    public NFrame(){ 
-    Color cor1 = new Color(229,0,0);
-    Color cor2 = new Color(255,141,0);
-    Color cor3 = new Color (255,238,0);
-    Color cor4 = new Color (2,129,33);
-    Color cor5 = new Color (0,76,255);
-    Color cor6 = new Color (119,0,136);
+    Color corFundo = new Color(210,233,255);
+    Color corBorda = new Color(72,164, 255);
     
     Container c = getContentPane();
-    setLocation(100,50);
+    setLocation(10,0);
     setTitle("Aplicação Operadoras/Planos");
-    setSize(800,500);
+    setSize(1000,600);
     setUndecorated(true);
-    c.setBackground (cor1);
-    c.setBackground (cor2);
-    c.setBackground (cor3);
-    c.setBackground (cor4);
-    c.setBackground (cor5);
-    c.setBackground (cor6);
-    
+    c.setBackground (corFundo);
     getRootPane().setWindowDecorationStyle(JRootPane.FRAME);
-    getRootPane().setBorder(BorderFactory.createLineBorder(Color.black,3));
+    getRootPane().setBorder(BorderFactory.createLineBorder(Color.BLUE,3));
     setDefaultCloseOperation(EXIT_ON_CLOSE);
    }
    public static void main(String arg[]){
    new NFrame().show();
    }
 }
+

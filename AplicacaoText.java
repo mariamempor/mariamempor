@@ -1,10 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package projOperadora;
+package projop;
 
+/**
+ *
+ * @author Alunos
+ */
+
+    import java.awt.Font;
+import javax.swing.BorderFactory;
 import javax.swing.JTextField;
 
 /**
@@ -19,8 +25,9 @@ public class AplicacaoText extends AplicacaoLabel{
 		{
 			Tx1 = new JTextField();
 			this.Tx1 = Tx1;
-			Tx1.setBounds(190,120,150,20);
-                    
+			Tx1.setBounds(220,160,200,30);
+                        Tx1.setFont(new Font("Arial",Font.BOLD,16));
+                        Tx1.setBorder(BorderFactory.createLineBorder(cor1,02));
 						
 			getContentPane().add(Tx1);
 			
@@ -33,3 +40,5 @@ public class AplicacaoText extends AplicacaoLabel{
 
     
 }
+    
+
