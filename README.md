@@ -76,14 +76,6 @@ Atualmente explorando **Java**, **C**, **Web Dev**, **QA** e me aventurando no u
 
 ## Contribuições & Conquistas
 
-### 🔥 Heatmap de Contribuições
-<div align="center">
-  <!-- Heatmap estilo calendário (Activity Graph) -->
-  <img alt="contribution heatmap" src="https://activity-graph.herokuapp.com/graph?username=mariamempor&theme=github" />
-</div>
-
----
-
 ### 🏆 Trophies 
 <div align="center">
   <!-- Trophies - badges que mostram métricas resumidas -->
