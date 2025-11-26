@@ -74,16 +74,20 @@ Atualmente explorando **Java**, **C**, **Web Dev**, **QA** e me aventurando no u
 
 ---
 
-##  **Contribuições**
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mariamempor/mariamempor/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mariamempor/mariamempor/output/pacman-contribution-graph.svg">
-  <img src="https://raw.githubusercontent.com/mariamempor/mariamempor/output/pacman-contribution-graph.svg" alt="pacman graph">
-</picture>
+## Contribuições & Conquistas
 
+### 🔥 Heatmap de Contribuições
 <div align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="120" alt="Obrigado!">
+  <!-- Heatmap estilo calendário (Activity Graph) -->
+  <img alt="contribution heatmap" src="https://activity-graph.herokuapp.com/graph?username=mariamempor&theme=github" />
 </div>
 
+---
+
+### 🏆 Trophies 
+<div align="center">
+  <!-- Trophies - badges que mostram métricas resumidas -->
+  <img alt="github trophies" src="https://github-profile-trophy.vercel.app/?username=mariamempor&theme=radical&row=1&column=3" />
+</div>
 <h3 align="center">Obrigada por visitar!  
 Vamos construir algo incrível juntas? ✨😉</h3>
